@@ -5,6 +5,7 @@ import com.typesafe.config.ConfigFactory;
 
 /**
  * Created by li on 2019/1/6.
+ * 读取配置文件的
  */
 public class ReadProperties {
     public final static Config config = ConfigFactory.load("youfan.properties");
